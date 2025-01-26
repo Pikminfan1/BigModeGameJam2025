@@ -10,6 +10,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "Engine/LocalPlayer.h"
+#include "BigModeGameJam2025GameMode.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -41,7 +42,15 @@ ABigModeGameJam2025Character::ABigModeGameJam2025Character()
 
 float ABigModeGameJam2025Character::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
-	return 0.0f;
+	// Call the base class - this will
+	// return the actual damage taken
+	float ActualDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+
+	//Get the BigModeGameJam2025GameMode
+	ABigModeGameJam2025GameMode* GameMode = GetWorld()->GetAuthGameMode<ABigModeGameJam2025GameMode>();
+	GameMode->SetCurrentHealth(GameMode->GetCurrentHealth() - ActualDamage);
+
+	return ActualDamage;
 }
 
 //////////////////////////////////////////////////////////////////////////// Input

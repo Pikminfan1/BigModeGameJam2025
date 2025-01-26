@@ -3,6 +3,9 @@
 
 #include "EnemyCharacterBase.h"
 #include "BigModeGameJam2025GameMode.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "Animation/AnimMontage.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 // Sets default values
 AEnemyCharacterBase::AEnemyCharacterBase()
@@ -14,9 +17,12 @@ AEnemyCharacterBase::AEnemyCharacterBase()
 
 float AEnemyCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
-	float DammageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
-	DammageToApply = FMath::Min(CurrentHealth, DammageToApply);
-	CurrentHealth-= DammageToApply;
+	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	//Maybe move this, but for now it's fine
+	DamageToApply *= GetWorld()->GetAuthGameMode<ABigModeGameJam2025GameMode>()->GetCurrentDamageLevel();
+
+	DamageToApply = FMath::Min(CurrentHealth, DamageToApply);
+	CurrentHealth-= DamageToApply;
 	UE_LOG(LogTemp, Warning, TEXT("Dammaged %f"), CurrentHealth);
 
 	//If the character is dead, notify the game mode and destroy the character
@@ -29,7 +35,23 @@ float AEnemyCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& Da
 		DetachFromControllerPendingDestroy();
 		//GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
-	return DammageToApply;
+	return DamageToApply;
+}
+
+void AEnemyCharacterBase::MeleeAttack()
+{
+	if (!MeleeAttackMontage) return;
+
+	GetCharacterMovement()->DisableMovement();
+
+	PlayAnimMontage(MeleeAttackMontage);
+
+	// Setup a timer to re-enable movement after animation
+	const float AnimationDuration = MeleeAttackMontage->GetPlayLength();
+	GetWorld()->GetTimerManager().SetTimer(MeleeAttackTimerHandle, this, &AEnemyCharacterBase::EnableMovement, AnimationDuration, false);
+
+	// Trigger hit logic at the right time
+	//GetWorld()->GetTimerManager().SetTimer(HitCheckTimerHandle, this, &AEnemyCharacterBase::PerformMeleeHitCheck, HitDelay, false);
 }
 
 bool AEnemyCharacterBase::IsDead() const
@@ -42,6 +64,39 @@ void AEnemyCharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void AEnemyCharacterBase::EnableMovement()
+{
+	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+}
+
+float AEnemyCharacterBase::GetExperienceReward() const
+{
+	return BaseExperienceReward * ExperienceMultiplier;
+}
+
+void AEnemyCharacterBase::PerformMeleeHitCheck()
+{
+	// Perform a sphere trace to detect enemies in range
+	TArray<FHitResult> OutHits;
+	const FVector TraceStart = GetActorLocation();
+	const FVector TraceEnd = TraceStart + GetActorForwardVector() * MeleeRange;
+	const FQuat Rotation = FQuat(GetActorRotation());
+	const FCollisionShape CollisionShape = FCollisionShape::MakeSphere(MeleeRadius);
+	const FCollisionQueryParams CollisionParams;
+	const bool bHit = GetWorld()->SweepMultiByChannel(OutHits, TraceStart, TraceEnd, Rotation, ECC_Pawn, CollisionShape, CollisionParams);
+
+	// Check if any enemies were hit
+	for (const FHitResult& Hit : OutHits)
+	{
+		ACharacter* HitCharacter = Cast<ACharacter>(Hit.GetActor());
+		if (HitCharacter && HitCharacter != this)
+		{
+			// Apply damage to the hit character
+			UGameplayStatics::ApplyDamage(HitCharacter, MeleeDamage, GetController(), this, UDamageType::StaticClass());
+		}
+	}
 }
 
 // Called every frame
