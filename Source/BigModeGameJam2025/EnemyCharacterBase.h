@@ -23,6 +23,7 @@ public:
 
 	virtual void MeleeAttack();
 
+	UFUNCTION(BlueprintPure)
 	bool IsDead() const;
 
 private:
@@ -53,6 +54,35 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = Combat)
 	TObjectPtr<UAnimMontage> MeleeAttackMontage;
+public:
+//Get() functions for all of the above private variables
+
+
+//UFUNCTION() Getter for MaxHealth, MaxSpeed, MaxJumpVelocity, BaseExperienceReward, ExperienceMultiplier
+	UFUNCTION(BlueprintPure)
+	float GetMaxHealth() const;
+
+	UFUNCTION(BlueprintPure)
+	float GetMaxSpeed() const;
+
+	UFUNCTION(BlueprintPure)
+	float GetMaxJumpVelocity() const;
+
+	UFUNCTION(BlueprintPure)
+	float GetBaseExperienceReward() const;
+
+	UFUNCTION(BlueprintPure)
+	float GetExperienceMultiplier() const;
+
+	UFUNCTION(BlueprintPure)
+	float GetCurrentHealth() const;
+
+	UFUNCTION(BlueprintCallable)
+	void SetEnemyCurrentHealth(float NewHealth);
+
+	UFUNCTION(BlueprintCallable)
+	void SetEnemyMaxHealth(float NewMaxHealth);
+
 
 protected:
 

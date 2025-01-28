@@ -75,7 +75,8 @@ void ABigModeGameJam2025GameMode::PawnKilled(APawn* PawnKilled)
 
 		EnemyCount--;
 		UE_LOG(LogTemp, Log, TEXT("Enemy Count: %d"), EnemyCount);
-		PawnKilled->Destroy();
+		//TEMPORARY COMMENT
+		//PawnKilled->Destroy();
 		//EndGame(true);
 	}
 }

@@ -106,10 +106,50 @@ void AEnemyCharacterBase::Tick(float DeltaTime)
 
 }
 
+float AEnemyCharacterBase::GetMaxHealth() const
+{
+	return MaxHealth;
+}
+
 // Called to bind functionality to input
 void AEnemyCharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+float AEnemyCharacterBase::GetMaxJumpVelocity() const
+{
+	return MaxJumpVelocity;
+}
+
+float AEnemyCharacterBase::GetBaseExperienceReward() const
+{
+	return BaseExperienceReward;
+}
+
+float AEnemyCharacterBase::GetExperienceMultiplier() const
+{
+	return ExperienceMultiplier;
+}
+
+float AEnemyCharacterBase::GetCurrentHealth() const
+{
+	return CurrentHealth;
+}
+
+void AEnemyCharacterBase::SetEnemyCurrentHealth(float NewHealth)
+{
+	CurrentHealth = NewHealth;
+}
+
+void AEnemyCharacterBase::SetEnemyMaxHealth(float NewMaxHealth)
+{
+		MaxHealth = NewMaxHealth;
+}
+
+float AEnemyCharacterBase::GetMaxSpeed() const
+{
+	return MaxSpeed;
 }
 
