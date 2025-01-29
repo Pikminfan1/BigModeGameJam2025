@@ -19,20 +19,21 @@ public:
 	// Sets default values for this character's properties
 	AEnemyCharacterBase();
 
-	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser);
+	//virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser);
 
 	virtual void MeleeAttack();
 
-	UFUNCTION(BlueprintPure)
-	bool IsDead() const;
+	//UFUNCTION(BlueprintPure)
+	//bool IsDead() const;
 
 private:
 	/** Variables Used to Hold Stat changes**/
+	/*Moved to BPComponent Damage System
 	UPROPERTY(EditAnywhere, Category = Stats)
 	float CurrentHealth = 100.0f;
 
 	UPROPERTY(EditAnywhere, Category = Stats)
-	float MaxHealth = 100.0f;
+	float MaxHealth = 100.0f;*/
 
 	UPROPERTY(EditAnywhere, Category = Stats)
 	float CurrentSpeed = 100.0f;
@@ -56,11 +57,20 @@ private:
 	TObjectPtr<UAnimMontage> MeleeAttackMontage;
 public:
 //Get() functions for all of the above private variables
-
+	/*Moved to BPComponent Damage System
 
 //UFUNCTION() Getter for MaxHealth, MaxSpeed, MaxJumpVelocity, BaseExperienceReward, ExperienceMultiplier
 	UFUNCTION(BlueprintPure)
 	float GetMaxHealth() const;
+
+	UFUNCTION(BlueprintPure)
+	float GetCurrentHealth() const;
+
+	UFUNCTION(BlueprintCallable)
+	void SetEnemyCurrentHealth(float NewHealth);
+
+	UFUNCTION(BlueprintCallable)
+	void SetEnemyMaxHealth(float NewMaxHealth);*/
 
 	UFUNCTION(BlueprintPure)
 	float GetMaxSpeed() const;
@@ -73,15 +83,6 @@ public:
 
 	UFUNCTION(BlueprintPure)
 	float GetExperienceMultiplier() const;
-
-	UFUNCTION(BlueprintPure)
-	float GetCurrentHealth() const;
-
-	UFUNCTION(BlueprintCallable)
-	void SetEnemyCurrentHealth(float NewHealth);
-
-	UFUNCTION(BlueprintCallable)
-	void SetEnemyMaxHealth(float NewMaxHealth);
 
 
 protected:

@@ -15,7 +15,9 @@ bool AEnemyShooterAIController::IsDead() const
 {
 	AEnemyCharacterBase* ControlledCharacter = Cast<AEnemyCharacterBase>(GetPawn());
 	if (ControlledCharacter != nullptr) {
-		return ControlledCharacter->IsDead();
+		return false;
+		//Temp fix
+		//return ControlledCharacter->IsDead();
 	}
 	return true;
 }

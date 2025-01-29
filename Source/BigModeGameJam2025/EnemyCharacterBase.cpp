@@ -15,6 +15,7 @@ AEnemyCharacterBase::AEnemyCharacterBase()
 
 }
 
+/*Temp Remove for damage blueprint component system
 float AEnemyCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
 	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
@@ -36,7 +37,7 @@ float AEnemyCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& Da
 		//GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 	return DamageToApply;
-}
+}*/
 
 void AEnemyCharacterBase::MeleeAttack()
 {
@@ -53,11 +54,11 @@ void AEnemyCharacterBase::MeleeAttack()
 	// Trigger hit logic at the right time
 	//GetWorld()->GetTimerManager().SetTimer(HitCheckTimerHandle, this, &AEnemyCharacterBase::PerformMeleeHitCheck, HitDelay, false);
 }
-
+/*
 bool AEnemyCharacterBase::IsDead() const
 {
-	return CurrentHealth <= 0;
-}
+	//return CurrentHealth <= 0;
+}*/
 
 // Called when the game starts or when spawned
 void AEnemyCharacterBase::BeginPlay()
@@ -105,11 +106,12 @@ void AEnemyCharacterBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
+//Moved to blueprint damage component
+/*
 float AEnemyCharacterBase::GetMaxHealth() const
 {
 	return MaxHealth;
-}
+}*/
 
 // Called to bind functionality to input
 void AEnemyCharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -132,7 +134,8 @@ float AEnemyCharacterBase::GetExperienceMultiplier() const
 {
 	return ExperienceMultiplier;
 }
-
+/*
+* Moved to Blueprint Damage Component
 float AEnemyCharacterBase::GetCurrentHealth() const
 {
 	return CurrentHealth;
@@ -146,7 +149,7 @@ void AEnemyCharacterBase::SetEnemyCurrentHealth(float NewHealth)
 void AEnemyCharacterBase::SetEnemyMaxHealth(float NewMaxHealth)
 {
 		MaxHealth = NewMaxHealth;
-}
+}*/
 
 float AEnemyCharacterBase::GetMaxSpeed() const
 {
