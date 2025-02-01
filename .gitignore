@@ -52,6 +52,13 @@ Wwise/*.prof
 Wwise/*.validationcache
 Wwise/*.wsettings
 
+# Exception for libraries
+!Plugins/Wwise/
+!Plugins/Wwise/**
+!Plugins/WwiseNiagara/
+!Plugins/WwiseNiagara/**
+!Plugins/WwiseSoundEngine/
+!Plugins/WwiseSoundEngine/**
 
 # Precompiled Assets
 SourceArt/**/*.png
