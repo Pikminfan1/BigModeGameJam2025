@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "824317709",
+    "Type": "Event",
+    "GUID": "{3304630F-E0C9-48DE-8FAD-91FEA202A056}",
+    "Language": "SFX",
+    "Hash": "{F160C78D-9A6B-8E5E-6708-CD439C581C00}",
+    "ObjectPath": "Maintheme",
+    "ShortName": "Maintheme",
+    "Path": "Event/Maintheme.bnk",
+    "Media": [
+     {
+      "Id": "27592572",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Intro_Main_Theme_165bpm.wav",
+      "Path": "Media/27592572.wem",
+      "CachePath": "4B/{4B765ED4-E91F-86F2-5FD2-D8E4888773E3}.wem"
+     },
+     {
+      "Id": "36240763",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Main_Theme_Loop_Master_165bpm.wav",
+      "Path": "Media/36240763.wem",
+      "CachePath": "5A/{5AEC56BD-7350-51DB-D679-ACE78CE1FF24}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "824317709",
+      "Name": "Maintheme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maintheme",
+      "GUID": "{3304630F-E0C9-48DE-8FAD-91FEA202A056}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "27592572"
+       },
+       {
+        "Id": "36240763"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{66757DF2-BAA5-1A3E-829A-7989CD9966A9}"
+ }
+}
