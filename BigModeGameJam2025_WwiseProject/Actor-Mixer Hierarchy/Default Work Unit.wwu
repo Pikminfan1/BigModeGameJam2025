@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DDBA8FDB-CEE9-4A24-92C5-CCFF90C90B62}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{DDBA8FDB-CEE9-4A24-92C5-CCFF90C90B62}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DDBA8FDB-CEE9-4A24-92C5-CCFF90C90B62}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SFX" ID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}" PersistMode="Reference"/>
+				<WorkUnit Name="DrumFill" ID="{CD12E317-77F0-4ABD-97B5-91B7A33459DE}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

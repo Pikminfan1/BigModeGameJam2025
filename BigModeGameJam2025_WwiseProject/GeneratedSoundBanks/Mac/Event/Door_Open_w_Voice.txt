@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2619103485	Door_Open_w_Voice			\SFX\Door_Open_w_Voice	
+

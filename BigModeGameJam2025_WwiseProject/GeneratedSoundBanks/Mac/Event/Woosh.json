@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3099361103",
+    "Type": "Event",
+    "GUID": "{A8E11214-166F-4748-A592-348DA5352850}",
+    "Language": "SFX",
+    "Hash": "{81D3637C-2102-5D9B-D9B7-5BE02030F2D3}",
+    "ObjectPath": "Woosh",
+    "ShortName": "Woosh",
+    "Path": "Event/Woosh.bnk",
+    "Media": [
+     {
+      "Id": "172804059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Woosh.wav",
+      "Path": "Media/172804059.wem",
+      "CachePath": "FD/{FD69F5A5-32BE-8E7E-DBB4-9559C92572D9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3099361103",
+      "Name": "Woosh",
+      "ObjectPath": "\\Events\\SFX\\Woosh",
+      "GUID": "{A8E11214-166F-4748-A592-348DA5352850}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.43950114",
+      "DurationMax": "0.43950114",
+      "MediaRefs": [
+       {
+        "Id": "172804059"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{79393674-0EE2-6CF5-3671-1B809BF2FC55}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1050776119	Enemy_Shoot			\SFX\Enemy_Shoot	
+

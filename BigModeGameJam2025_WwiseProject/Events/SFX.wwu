@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52DBF9DF-4117-4191-81C6-111FCA58679C}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SFX" ID="{52DBF9DF-4117-4191-81C6-111FCA58679C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Revolver" ID="{6334A4C2-B0B4-4312-A039-D0E304BE21C2}">
+					<ChildrenList>
+						<Action Name="" ID="{9CC84436-2F6F-4648-920A-11EBD595BD4B}" ShortID="269366977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Revolver" ID="{535BBE52-F1DD-47CB-9E5A-ACFB5EB2D0F2}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Open" ID="{FD35B1FF-38EB-411B-9E3E-E7FF1E9E8C68}">
+					<ChildrenList>
+						<Action Name="" ID="{01D3ECB7-F160-4D86-9B05-A4761B892E8A}" ShortID="613179831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Open" ID="{F86FF2C2-CC4A-44D8-BA8F-E62E451B97AB}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Open_w_Voice" ID="{FB6D6260-CAE1-4899-B7B8-E46E734FD1AB}">
+					<ChildrenList>
+						<Action Name="" ID="{CD0E8D73-E327-498E-8C10-C40C5B4113AC}" ShortID="808304698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Open w Voice" ID="{C3EED1E0-EF2B-4A61-98F5-1B9BAAF87B96}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_Block" ID="{1FDF20EA-5A17-4425-A176-D57B13F57FA8}">
+					<ChildrenList>
+						<Action Name="" ID="{9FE27A4F-BAF5-4B42-82E5-7A45D07B6439}" ShortID="554692330">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy Block" ID="{6CBBF858-F4FF-4483-90F0-031A2BB692B4}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_Shoot" ID="{27F1BF5C-E8C0-4616-A22A-FEED2FED8548}">
+					<ChildrenList>
+						<Action Name="" ID="{71436112-9224-490D-9100-5E117D30B5B4}" ShortID="569320461">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy Shoot" ID="{CFD9606C-2314-4538-9EB7-A48830D9BC5B}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Shotgun" ID="{E724D16D-5B23-46C6-9027-AD502F457BEE}">
+					<ChildrenList>
+						<Action Name="" ID="{7A869DC7-3188-4D21-8D85-54AE383C7ACB}" ShortID="1003169744">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shotgun" ID="{C79D70CC-516E-49FF-86CB-E67C73E0B108}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Woosh" ID="{A8E11214-166F-4748-A592-348DA5352850}">
+					<ChildrenList>
+						<Action Name="" ID="{66C07C79-EFBA-4D61-8F6D-DEF4798397D7}" ShortID="1062487459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh" ID="{6E947B6B-60D9-4ACB-AC8B-92E249E5F37F}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

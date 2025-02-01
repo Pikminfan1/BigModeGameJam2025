@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3304630F-E0C9-48DE-8FAD-91FEA202A056}",
     "Language": "SFX",
-    "Hash": "{F160C78D-9A6B-8E5E-6708-CD439C581C00}",
+    "Hash": "{2442CB18-D2FB-4230-9B4A-2AA66F6C0C75}",
     "ObjectPath": "Maintheme",
     "ShortName": "Maintheme",
     "Path": "Event/Maintheme.bnk",
@@ -32,6 +32,42 @@
       "ShortName": "Main_Theme_Loop_Master_165bpm.wav",
       "Path": "Media/36240763.wem",
       "CachePath": "5A/{5AEC56BD-7350-51DB-D679-ACE78CE1FF24}.wem"
+     },
+     {
+      "Id": "83507739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemy_Death_Drumfill_2.wav",
+      "Path": "Media/83507739.wem",
+      "CachePath": "71/{7169749A-D90C-E105-04B1-F405F8719A5E}.wem"
+     },
+     {
+      "Id": "348889120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemy_Death_Drumfill_3.wav",
+      "Path": "Media/348889120.wem",
+      "CachePath": "FC/{FC3D6792-BBAD-8CED-17D3-D44E6AEBCEAE}.wem"
+     },
+     {
+      "Id": "553783300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemy_Death_Drumfill_4.wav",
+      "Path": "Media/553783300.wem",
+      "CachePath": "1D/{1D4933A6-63D7-16AB-5868-01B5B6722023}.wem"
+     },
+     {
+      "Id": "709193807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemy_Death_Drumfill_1.wav",
+      "Path": "Media/709193807.wem",
+      "CachePath": "FB/{FB5C8A27-883A-6EBD-66E5-11009FCB34B2}.wem"
      }
     ],
     "Events": [
@@ -47,12 +83,32 @@
        },
        {
         "Id": "36240763"
+       },
+       {
+        "Id": "83507739"
+       },
+       {
+        "Id": "348889120"
+       },
+       {
+        "Id": "553783300"
+       },
+       {
+        "Id": "709193807"
        }
       ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "3249137159",
+      "Name": "EnemyDeath",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\EnemyDeath",
+      "GUID": "{478EEFE8-81F1-4D17-927D-C0E0B0E9B421}"
      }
     ]
    }
   ],
-  "FileHash": "{246F423D-CA0A-06A6-8022-9CB101151241}"
+  "FileHash": "{55EBAA2F-A604-B209-6DA7-D66E644F6046}"
  }
 }

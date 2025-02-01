@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD12E317-77F0-4ABD-97B5-91B7A33459DE}" SchemaVersion="123" RootDocumentID="{DDBA8FDB-CEE9-4A24-92C5-CCFF90C90B62}" ParentDocumentID="{DDBA8FDB-CEE9-4A24-92C5-CCFF90C90B62}">
+	<AudioObjects>
+		<WorkUnit Name="DrumFill" ID="{CD12E317-77F0-4ABD-97B5-91B7A33459DE}" OwnerID="{DDBA8FDB-CEE9-4A24-92C5-CCFF90C90B62}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="DrumFills" ID="{E5FA062A-832D-4F55-9450-0787F88783DA}" ShortID="678648136"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

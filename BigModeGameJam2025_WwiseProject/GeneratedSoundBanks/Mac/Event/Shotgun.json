@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "51683977",
+    "Type": "Event",
+    "GUID": "{E724D16D-5B23-46C6-9027-AD502F457BEE}",
+    "Language": "SFX",
+    "Hash": "{C5484E7C-2D51-F515-6E2B-87C8DFD25597}",
+    "ObjectPath": "Shotgun",
+    "ShortName": "Shotgun",
+    "Path": "Event/Shotgun.bnk",
+    "Media": [
+     {
+      "Id": "337340916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Shotgun.wav",
+      "Path": "Media/337340916.wem",
+      "CachePath": "AD/{AD50C17D-3ED1-2E39-F0B3-2389BD437D38}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "51683977",
+      "Name": "Shotgun",
+      "ObjectPath": "\\Events\\SFX\\Shotgun",
+      "GUID": "{E724D16D-5B23-46C6-9027-AD502F457BEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4297053",
+      "DurationMax": "1.4297053",
+      "MediaRefs": [
+       {
+        "Id": "337340916"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2CA36B7D-FA82-DF8D-D600-2BE29BFDB8C3}"
+ }
+}

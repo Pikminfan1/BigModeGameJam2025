@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3315189553",
+    "Type": "Event",
+    "GUID": "{1FDF20EA-5A17-4425-A176-D57B13F57FA8}",
+    "Language": "SFX",
+    "Hash": "{7E0B137D-CCE0-EB51-D23A-DC2C2B511933}",
+    "ObjectPath": "Enemy_Block",
+    "ShortName": "Enemy_Block",
+    "Path": "Event/Enemy_Block.bnk",
+    "Media": [
+     {
+      "Id": "779524919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "enemy block.wav",
+      "Path": "Media/779524919.wem",
+      "CachePath": "8B/{8BEA6419-7BFF-AC37-51FE-16038B79DFCB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3315189553",
+      "Name": "Enemy_Block",
+      "ObjectPath": "\\Events\\SFX\\Enemy_Block",
+      "GUID": "{1FDF20EA-5A17-4425-A176-D57B13F57FA8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7579819",
+      "DurationMax": "1.7579819",
+      "MediaRefs": [
+       {
+        "Id": "779524919"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B9F7862A-89D8-E288-8C65-25C7F1FF8DAA}"
+ }
+}

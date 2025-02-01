@@ -4,6 +4,191 @@
 		<WorkUnit Name="Default Work Unit" ID="{B07F3BA4-4DAF-48AA-83D5-4FF39D3DF9AB}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Music" ID="{35F785A4-31EB-489A-9A56-2061C9BD8F52}" PersistMode="Reference"/>
+				<Folder Name="Drumfills" ID="{7F7ABEA7-9178-4AEB-BA0C-07F795619013}" ShortID="506734411">
+					<ChildrenList>
+						<MusicSegment Name="EnemyDeath" ID="{CBFC6404-D6E3-49BB-B070-A470CC949809}" ShortID="846498007">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="165"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12453755-B9B8-486E-B6DD-D54DD43B701E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62CA62F3-60E9-4921-850E-C13096B3DAB7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Drumfill1" ID="{82C0D92F-934D-4888-BEF1-AA8530B73272}" ShortID="895803163">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62CA62F3-60E9-4921-850E-C13096B3DAB7}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1B81815E-12A2-4F66-A321-38F3F4982333}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Death_Drumfill_1" ID="{A946F3DD-649D-4AD9-9815-FFD0BA620B22}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Death_Drumfill_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="709193807"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Enemy_Death_Drumfill_2" ID="{FA2E67E4-24A0-42FB-9A22-E13BD63B4BCD}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Death_Drumfill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83507739"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Enemy_Death_Drumfill_3" ID="{B2A3A4C1-F41E-49D5-970D-9B1C12206422}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Death_Drumfill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348889120"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Enemy_Death_Drumfill_4" ID="{C46566C5-E5D4-454E-88E0-A3274ACD272C}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Death_Drumfill_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="553783300"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{21F2B40F-95F6-464F-958F-097EAD6F5901}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Enemy_Death_Drumfill_1" ID="{6EFF76F6-E7B6-46D1-8C5E-2247B6C952B8}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="727.278911564626"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Enemy_Death_Drumfill_1" ID="{A946F3DD-649D-4AD9-9815-FFD0BA620B22}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2F6F5634-0B1F-4551-8CD6-5551CD35E4B1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Enemy_Death_Drumfill_2" ID="{7151E2A2-4B1B-4116-9365-117DB55EED48}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="727.278911564626"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Enemy_Death_Drumfill_2" ID="{FA2E67E4-24A0-42FB-9A22-E13BD63B4BCD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{96BEB5C6-69A4-4CA7-9174-366E7BB0449B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Enemy_Death_Drumfill_3" ID="{08F99287-E90E-4E67-83CD-FD79418E9B12}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1454.55782312925"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Enemy_Death_Drumfill_3" ID="{B2A3A4C1-F41E-49D5-970D-9B1C12206422}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{18804A78-BD9B-4A0E-98BC-40760855750B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Enemy_Death_Drumfill_4" ID="{13F463D9-ED60-4AA1-9DE3-928BED1DFDB9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1454.55782312925"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Enemy_Death_Drumfill_4" ID="{C46566C5-E5D4-454E-88E0-A3274ACD272C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{77E5C35C-61B1-4C27-9EBC-0EDA2A781313}"/>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{6CD2D60D-5A21-4DDD-90AD-FA3F750BE2EB}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F4EDD649-4531-4EC9-9B80-4CEBBE259F95}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

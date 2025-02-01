@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1688723084",
+    "Type": "Event",
+    "GUID": "{6334A4C2-B0B4-4312-A039-D0E304BE21C2}",
+    "Language": "SFX",
+    "Hash": "{A0AF405F-D7F9-1820-2AFE-FE96FE1F60BF}",
+    "ObjectPath": "Revolver",
+    "ShortName": "Revolver",
+    "Path": "Event/Revolver.bnk",
+    "Media": [
+     {
+      "Id": "810402703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Revolver.wav",
+      "Path": "Media/810402703.wem",
+      "CachePath": "55/{557D6522-54A7-605A-2477-4538C91845A2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1688723084",
+      "Name": "Revolver",
+      "ObjectPath": "\\Events\\SFX\\Revolver",
+      "GUID": "{6334A4C2-B0B4-4312-A039-D0E304BE21C2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4297053",
+      "DurationMax": "1.4297053",
+      "MediaRefs": [
+       {
+        "Id": "810402703"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{83A8459C-AE6A-5582-DA39-3F97B97989D9}"
+ }
+}

@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	824317709	Maintheme			\Default Work Unit\Maintheme	
 
+Trigger	ID	Name			Wwise Object Path	Notes
+	3249137159	EnemyDeath			\Default Work Unit\EnemyDeath	
+

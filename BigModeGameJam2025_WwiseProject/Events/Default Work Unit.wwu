@@ -8,7 +8,29 @@
 						<Action Name="" ID="{2E168CB4-BD64-419B-9596-A0D4DC154890}" ShortID="799282626">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Playlist Container" ID="{7EEF38B7-7F46-411F-9D15-9CC1E019529F}" WorkUnitID="{35F785A4-31EB-489A-9A56-2061C9BD8F52}"/>
+									<ObjectRef Name="Main Theme" ID="{7EEF38B7-7F46-411F-9D15-9CC1E019529F}" WorkUnitID="{35F785A4-31EB-489A-9A56-2061C9BD8F52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnemyDeath" ID="{386CF2BA-50EC-48FE-9FD6-5C86A855B18E}">
+					<ChildrenList>
+						<Action Name="" ID="{C36EEDE4-8AF5-40DB-B679-DD91C2F7B2F6}" ShortID="630028589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyDeath" ID="{CBFC6404-D6E3-49BB-B070-A470CC949809}" WorkUnitID="{B07F3BA4-4DAF-48AA-83D5-4FF39D3DF9AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Song_1" ID="{8EA67D5C-E242-4463-961A-1BF88FD92445}">
+					<ChildrenList>
+						<Action Name="" ID="{0B93AB25-4403-4123-8068-12ACA02FA47E}" ShortID="33533559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Song 2" ID="{A55002EA-1D90-4C0B-8D5F-F4D9C7FFB898}" WorkUnitID="{35F785A4-31EB-489A-9A56-2061C9BD8F52}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

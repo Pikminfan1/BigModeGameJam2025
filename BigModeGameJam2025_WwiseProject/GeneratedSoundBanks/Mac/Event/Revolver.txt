@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1688723084	Revolver			\SFX\Revolver	
+

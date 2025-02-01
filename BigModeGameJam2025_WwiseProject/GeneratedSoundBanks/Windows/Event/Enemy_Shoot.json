@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1050776119",
+    "Type": "Event",
+    "GUID": "{27F1BF5C-E8C0-4616-A22A-FEED2FED8548}",
+    "Language": "SFX",
+    "Hash": "{D995FD03-A04F-8638-A4EB-9517C2B9111B}",
+    "ObjectPath": "Enemy_Shoot",
+    "ShortName": "Enemy_Shoot",
+    "Path": "Event/Enemy_Shoot.bnk",
+    "Media": [
+     {
+      "Id": "138203598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemy shoot sfx.wav",
+      "Path": "Media/138203598.wem",
+      "CachePath": "ED/{ED30F485-618B-936E-D84C-8E1533466F83}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1050776119",
+      "Name": "Enemy_Shoot",
+      "ObjectPath": "\\Events\\SFX\\Enemy_Shoot",
+      "GUID": "{27F1BF5C-E8C0-4616-A22A-FEED2FED8548}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4297053",
+      "DurationMax": "1.4297053",
+      "MediaRefs": [
+       {
+        "Id": "138203598"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F89F26E1-841B-94E9-0ED2-8EA0E48F9CC1}"
+ }
+}
