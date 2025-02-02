@@ -64,9 +64,16 @@
 								<MediaID ID="779524919"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="enemyblock3" ID="{19902C98-EBE0-48DC-B33A-AE767E116477}">
+							<Language>SFX</Language>
+							<AudioFile>enemyblock3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="634831943"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="enemy block" ID="{0CCFB0A4-87BE-4A99-9694-2CE16E4DA1DE}" Platform="Linked"/>
+						<ActiveSource Name="enemyblock3" ID="{19902C98-EBE0-48DC-B33A-AE767E116477}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Enemy Shoot" ID="{CFD9606C-2314-4538-9EB7-A48830D9BC5B}" ShortID="749439777">
