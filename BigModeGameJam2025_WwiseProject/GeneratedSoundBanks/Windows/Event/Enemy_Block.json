@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{1FDF20EA-5A17-4425-A176-D57B13F57FA8}",
     "Language": "SFX",
-    "Hash": "{7E0B137D-CCE0-EB51-D23A-DC2C2B511933}",
+    "Hash": "{8638C90B-C95A-21F2-4547-FF73F616EB5E}",
     "ObjectPath": "Enemy_Block",
     "ShortName": "Enemy_Block",
     "Path": "Event/Enemy_Block.bnk",
     "Media": [
      {
-      "Id": "779524919",
+      "Id": "634831943",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "enemy block.wav",
-      "Path": "Media/779524919.wem",
-      "CachePath": "8B/{8BEA6419-7BFF-AC37-51FE-16038B79DFCB}.wem"
+      "ShortName": "enemyblock3.wav",
+      "Path": "Media/634831943.wem",
+      "CachePath": "75/{752CE916-5080-3B43-BF1D-F6CB12B43192}.wem"
      }
     ],
     "Events": [
@@ -32,17 +32,17 @@
       "ObjectPath": "\\Events\\SFX\\Enemy_Block",
       "GUID": "{1FDF20EA-5A17-4425-A176-D57B13F57FA8}",
       "DurationType": "OneShot",
-      "DurationMin": "1.7579819",
-      "DurationMax": "1.7579819",
+      "DurationMin": "0.43950114",
+      "DurationMax": "0.43950114",
       "MediaRefs": [
        {
-        "Id": "779524919"
+        "Id": "634831943"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{65183289-44B1-E675-C284-A0CDEA080A19}"
+  "FileHash": "{7D0E3037-0A42-4961-5DFE-1AE489E7EAFE}"
  }
 }
