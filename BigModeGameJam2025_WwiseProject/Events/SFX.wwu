@@ -113,6 +113,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Footsteps" ID="{215DAB87-F44C-4D72-BB7A-847D0A4F1659}">
+					<ChildrenList>
+						<Action Name="" ID="{CF30ABFA-BD63-4457-B0AB-DD3EC09EC06C}" ShortID="706237778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stone_Footsteps" ID="{1B371FB6-CC14-499F-8FA5-0CB4A5CFF0DD}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{F4F0653F-7885-4EC3-A122-C720CC7299C5}">
+					<ChildrenList>
+						<Action Name="" ID="{59B4211E-AAF0-475E-BFC6-12453C9F5EB0}" ShortID="245309822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{DFAFD057-690D-48E5-A02A-79D3D6766504}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
