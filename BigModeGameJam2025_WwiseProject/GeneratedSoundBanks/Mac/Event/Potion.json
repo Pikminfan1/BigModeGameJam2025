@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4272075576",
+    "Type": "Event",
+    "GUID": "{48A93039-682E-45B7-B3C0-8A33FB52437A}",
+    "Language": "SFX",
+    "Hash": "{923D6B78-DB85-9FBF-19CF-E9CB3B4474FB}",
+    "ObjectPath": "Potion",
+    "ShortName": "Potion",
+    "Path": "Event/Potion.bnk",
+    "Media": [
+     {
+      "Id": "93154793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Potion Throw.wav",
+      "Path": "Media/93154793.wem",
+      "CachePath": "FA/{FA72D05B-C42A-D707-4D9C-3B69B6955CCD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4272075576",
+      "Name": "Potion",
+      "ObjectPath": "\\Events\\SFX\\Potion",
+      "GUID": "{48A93039-682E-45B7-B3C0-8A33FB52437A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4659184",
+      "DurationMax": "1.4659184",
+      "MediaRefs": [
+       {
+        "Id": "93154793"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FBD2FD8B-595C-8280-336E-EEC2288D92F5}"
+ }
+}

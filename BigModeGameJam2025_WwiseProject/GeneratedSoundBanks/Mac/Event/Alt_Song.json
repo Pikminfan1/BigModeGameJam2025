@@ -6,14 +6,14 @@
   "SoundBankVersion": "154",
   "SoundBanks": [
    {
-    "Id": "3428420066",
+    "Id": "2410032418",
     "Type": "Event",
     "GUID": "{8EA67D5C-E242-4463-961A-1BF88FD92445}",
     "Language": "SFX",
-    "Hash": "{BF2E4E5D-A4A8-9EFF-DA58-01147DBFA8B5}",
-    "ObjectPath": "Song_1",
-    "ShortName": "Song_1",
-    "Path": "Event/Song_1.bnk",
+    "Hash": "{7117587B-1A0C-CFA3-CAFB-68D899F7CF78}",
+    "ObjectPath": "Alt_Song",
+    "ShortName": "Alt_Song",
+    "Path": "Event/Alt_Song.bnk",
     "Media": [
      {
       "Id": "330230703",
@@ -45,9 +45,9 @@
     ],
     "Events": [
      {
-      "Id": "3428420066",
-      "Name": "Song_1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Song_1",
+      "Id": "2410032418",
+      "Name": "Alt_Song",
+      "ObjectPath": "\\Events\\Default Work Unit\\Alt_Song",
       "GUID": "{8EA67D5C-E242-4463-961A-1BF88FD92445}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -65,6 +65,6 @@
     ]
    }
   ],
-  "FileHash": "{E5528118-EB4F-9438-A26D-350E70B871C4}"
+  "FileHash": "{90F007C2-0CBC-13FE-2C72-DFADC01F063A}"
  }
 }

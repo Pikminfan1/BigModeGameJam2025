@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Song_1" ID="{8EA67D5C-E242-4463-961A-1BF88FD92445}">
+				<Event Name="Alt_Song" ID="{8EA67D5C-E242-4463-961A-1BF88FD92445}">
 					<ChildrenList>
 						<Action Name="" ID="{0B93AB25-4403-4123-8068-12ACA02FA47E}" ShortID="33533559">
 							<ReferenceList>
