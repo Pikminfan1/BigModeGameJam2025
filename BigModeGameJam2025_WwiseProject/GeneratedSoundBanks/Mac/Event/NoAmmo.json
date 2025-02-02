@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "16204334",
+    "Type": "Event",
+    "GUID": "{7C3F11BB-DA77-4FCC-9B11-C8E8DED41BAB}",
+    "Language": "SFX",
+    "Hash": "{1EA95D12-A9EC-464C-D122-6574A688EC94}",
+    "ObjectPath": "NoAmmo",
+    "ShortName": "NoAmmo",
+    "Path": "Event/NoAmmo.bnk",
+    "Media": [
+     {
+      "Id": "108170739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "NoAmmo.wav",
+      "Path": "Media/108170739.wem",
+      "CachePath": "CB/{CB22454E-DB73-75AB-6AF1-70B3D47319F9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "16204334",
+      "Name": "NoAmmo",
+      "ObjectPath": "\\Events\\SFX\\NoAmmo",
+      "GUID": "{7C3F11BB-DA77-4FCC-9B11-C8E8DED41BAB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.57188207",
+      "DurationMax": "0.57188207",
+      "MediaRefs": [
+       {
+        "Id": "108170739"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{30E2E9AB-0903-C51C-BDC3-BE74115DD746}"
+ }
+}

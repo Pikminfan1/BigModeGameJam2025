@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4262674733",
+    "Type": "Event",
+    "GUID": "{174F0A38-3171-4112-AD69-6E3378B8F77A}",
+    "Language": "SFX",
+    "Hash": "{2CC02472-D21C-0453-AB45-19134EFA4CC4}",
+    "ObjectPath": "Rifle",
+    "ShortName": "Rifle",
+    "Path": "Event/Rifle.bnk",
+    "Media": [
+     {
+      "Id": "134696969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "rifle.wav",
+      "Path": "Media/134696969.wem",
+      "CachePath": "20/{20FCDDC4-E874-3507-C7AA-8DA92B73EDFB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4262674733",
+      "Name": "Rifle",
+      "ObjectPath": "\\Events\\SFX\\Rifle",
+      "GUID": "{174F0A38-3171-4112-AD69-6E3378B8F77A}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2875283",
+      "DurationMax": "2.2875283",
+      "MediaRefs": [
+       {
+        "Id": "134696969"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2E597D67-6AC4-B745-9C3D-9DC1B03A76F5}"
+ }
+}

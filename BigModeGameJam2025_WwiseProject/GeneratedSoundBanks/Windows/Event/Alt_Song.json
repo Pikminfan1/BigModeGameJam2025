@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2410032418",
+    "Type": "Event",
+    "GUID": "{8EA67D5C-E242-4463-961A-1BF88FD92445}",
+    "Language": "SFX",
+    "Hash": "{7117587B-1A0C-CFA3-CAFB-68D899F7CF78}",
+    "ObjectPath": "Alt_Song",
+    "ShortName": "Alt_Song",
+    "Path": "Event/Alt_Song.bnk",
+    "Media": [
+     {
+      "Id": "330230703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Song 1 Middle Space.wav",
+      "Path": "Media/330230703.wem",
+      "CachePath": "B4/{B4B59635-3C70-DB3D-D448-7EDB421AFA1D}.wem"
+     },
+     {
+      "Id": "555095187",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Song 1 Intro Space.wav",
+      "Path": "Media/555095187.wem",
+      "CachePath": "17/{17684F08-B47E-031C-674C-BDDAF64E2315}.wem"
+     },
+     {
+      "Id": "977224812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Song 1 Loop Space.wav",
+      "Path": "Media/977224812.wem",
+      "CachePath": "A1/{A18DD44C-2C2A-35D5-201D-675F523B7B8E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2410032418",
+      "Name": "Alt_Song",
+      "ObjectPath": "\\Events\\Default Work Unit\\Alt_Song",
+      "GUID": "{8EA67D5C-E242-4463-961A-1BF88FD92445}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "330230703"
+       },
+       {
+        "Id": "555095187"
+       },
+       {
+        "Id": "977224812"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1D721161-37FD-93FD-4518-21E69DE0BA06}"
+ }
+}

@@ -157,6 +157,72 @@
 						<ActiveSource Name="Woosh" ID="{7FD569B2-00DA-445B-A331-A3DBB1B0CBB9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Rifle" ID="{B95E3693-9A4E-474F-8A2D-B82036C553A8}" ShortID="834634635">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12453755-B9B8-486E-B6DD-D54DD43B701E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62CA62F3-60E9-4921-850E-C13096B3DAB7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="rifle" ID="{7951890B-7338-422F-946E-62A60B28AD2F}">
+							<Language>SFX</Language>
+							<AudioFile>rifle.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="134696969"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="rifle" ID="{7951890B-7338-422F-946E-62A60B28AD2F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Potion" ID="{6F0265C7-951D-430E-A789-1C1898B1D54E}" ShortID="938933763">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12453755-B9B8-486E-B6DD-D54DD43B701E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62CA62F3-60E9-4921-850E-C13096B3DAB7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Potion Throw" ID="{1455789C-D90A-48FB-AF56-EB901363E063}">
+							<Language>SFX</Language>
+							<AudioFile>Potion Throw.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="93154793"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Potion Throw" ID="{1455789C-D90A-48FB-AF56-EB901363E063}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="NoAmmo" ID="{88785032-B642-4649-8B3D-061E5D18A0A0}" ShortID="4337451">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12453755-B9B8-486E-B6DD-D54DD43B701E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62CA62F3-60E9-4921-850E-C13096B3DAB7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="NoAmmo" ID="{EFAAA690-A8B0-4A24-8B76-0662C7C94D3F}">
+							<Language>SFX</Language>
+							<AudioFile>NoAmmo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="108170739"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="NoAmmo" ID="{EFAAA690-A8B0-4A24-8B76-0662C7C94D3F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

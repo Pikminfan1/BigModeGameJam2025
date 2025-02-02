@@ -80,6 +80,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Potion" ID="{48A93039-682E-45B7-B3C0-8A33FB52437A}">
+					<ChildrenList>
+						<Action Name="" ID="{BB99319A-3BF4-4D73-A668-AC1D58021837}" ShortID="975058672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Potion" ID="{6F0265C7-951D-430E-A789-1C1898B1D54E}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rifle" ID="{174F0A38-3171-4112-AD69-6E3378B8F77A}">
+					<ChildrenList>
+						<Action Name="" ID="{385B29D6-88DE-47B4-BCEC-3E90FC06F160}" ShortID="610178637">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rifle" ID="{B95E3693-9A4E-474F-8A2D-B82036C553A8}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NoAmmo" ID="{7C3F11BB-DA77-4FCC-9B11-C8E8DED41BAB}">
+					<ChildrenList>
+						<Action Name="" ID="{6FB40470-DFAA-46FF-8EC1-6BCDAA774FB9}" ShortID="303609923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NoAmmo" ID="{88785032-B642-4649-8B3D-061E5D18A0A0}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
