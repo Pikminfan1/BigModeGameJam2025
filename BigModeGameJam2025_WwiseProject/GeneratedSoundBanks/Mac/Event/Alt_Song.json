@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8EA67D5C-E242-4463-961A-1BF88FD92445}",
     "Language": "SFX",
-    "Hash": "{7117587B-1A0C-CFA3-CAFB-68D899F7CF78}",
+    "Hash": "{DDF08F8D-8164-2D9D-BA9D-71FBA4484563}",
     "ObjectPath": "Alt_Song",
     "ShortName": "Alt_Song",
     "Path": "Event/Alt_Song.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Song 1 Middle Space.wav",
       "Path": "Media/330230703.wem",
-      "CachePath": "B4/{B4B59635-3C70-DB3D-D448-7EDB421AFA1D}.wem"
+      "CachePath": "C2/{C24A611E-A5D0-F139-9EFE-9D0F32AB6F28}.wem"
      },
      {
       "Id": "555095187",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "Song 1 Intro Space.wav",
       "Path": "Media/555095187.wem",
-      "CachePath": "17/{17684F08-B47E-031C-674C-BDDAF64E2315}.wem"
+      "CachePath": "CE/{CE692845-6DA0-892C-795D-A209B5D1401C}.wem"
      },
      {
       "Id": "977224812",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "Song 1 Loop Space.wav",
       "Path": "Media/977224812.wem",
-      "CachePath": "A1/{A18DD44C-2C2A-35D5-201D-675F523B7B8E}.wem"
+      "CachePath": "E8/{E808FCBA-11DB-449F-E278-9AF4F4859B7A}.wem"
      }
     ],
     "Events": [
@@ -65,6 +65,6 @@
     ]
    }
   ],
-  "FileHash": "{90F007C2-0CBC-13FE-2C72-DFADC01F063A}"
+  "FileHash": "{F556245E-2064-7350-0ED5-9DA92BA21C92}"
  }
 }
