@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3304630F-E0C9-48DE-8FAD-91FEA202A056}",
     "Language": "SFX",
-    "Hash": "{2442CB18-D2FB-4230-9B4A-2AA66F6C0C75}",
+    "Hash": "{51537F02-C1B0-0B06-F87F-257F90C7410F}",
     "ObjectPath": "Maintheme",
     "ShortName": "Maintheme",
     "Path": "Event/Maintheme.bnk",
@@ -109,6 +109,6 @@
     ]
    }
   ],
-  "FileHash": "{55EBAA2F-A604-B209-6DA7-D66E644F6046}"
+  "FileHash": "{425F5FB1-30DD-917C-2C24-B59C05ED7566}"
  }
 }

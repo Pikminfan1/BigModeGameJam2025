@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MainMenu" ID="{06755259-E36F-44CB-8E86-7B3665354327}">
+					<ChildrenList>
+						<Action Name="" ID="{F618EAFB-F549-42F0-8499-B8062C254C80}" ShortID="533484945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Menu" ID="{E0DE2987-26DC-48B4-8A55-C9A647788715}" WorkUnitID="{35F785A4-31EB-489A-9A56-2061C9BD8F52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
