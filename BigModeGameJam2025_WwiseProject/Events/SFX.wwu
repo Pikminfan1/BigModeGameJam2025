@@ -113,7 +113,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Footsteps" ID="{215DAB87-F44C-4D72-BB7A-847D0A4F1659}">
+				<Event Name="Footsteps_Stone" ID="{215DAB87-F44C-4D72-BB7A-847D0A4F1659}">
 					<ChildrenList>
 						<Action Name="" ID="{CF30ABFA-BD63-4457-B0AB-DD3EC09EC06C}" ShortID="706237778">
 							<ReferenceList>
@@ -130,6 +130,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Land" ID="{DFAFD057-690D-48E5-A02A-79D3D6766504}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LevelUP" ID="{5C46BEC6-601E-4946-96F8-CEAD9E6195F3}">
+					<ChildrenList>
+						<Action Name="" ID="{DEC27EBC-DA02-429F-97DF-4A67B3A6C4BF}" ShortID="1059169649">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelUP" ID="{2B99797A-D7B7-4129-AAB7-31A0075AD93A}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps_Wood" ID="{06D377A3-C570-48D7-96B5-9E9B3E818CCE}">
+					<ChildrenList>
+						<Action Name="" ID="{46AD86CD-BF56-47E0-B303-296B53DB5468}" ShortID="833769363">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood_Footsteps" ID="{10A5F0F8-94BA-412C-B212-C06A6E732368}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps_Grass" ID="{AACE672F-D198-4ACF-9FC9-FE0169C841FE}">
+					<ChildrenList>
+						<Action Name="" ID="{3EC84B9A-6B37-4B45-BCD5-5F5B84729DE2}" ShortID="702607716">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grass_Footsteps" ID="{FF2E3EA5-8CEE-40F2-A14D-C46E54F51D56}" WorkUnitID="{B77F5B1E-E973-4B1D-8252-C7230AC1AA18}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

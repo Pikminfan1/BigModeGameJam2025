@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "7365553",
+    "Type": "Event",
+    "GUID": "{AACE672F-D198-4ACF-9FC9-FE0169C841FE}",
+    "Language": "SFX",
+    "Hash": "{D03CFB02-4AE7-E98C-4761-5041A6F1B0CB}",
+    "ObjectPath": "Footsteps_Grass",
+    "ShortName": "Footsteps_Grass",
+    "Path": "Event/Footsteps_Grass.bnk",
+    "Media": [
+     {
+      "Id": "458155273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FootstepsGrass2.wav",
+      "Path": "Media/458155273.wem",
+      "CachePath": "2C/{2C9C325E-9EBD-89FD-7381-05F53BB85BEB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "7365553",
+      "Name": "Footsteps_Grass",
+      "ObjectPath": "\\Events\\SFX\\Footsteps_Grass",
+      "GUID": "{AACE672F-D198-4ACF-9FC9-FE0169C841FE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33030108",
+      "DurationMax": "0.46711624",
+      "MediaRefs": [
+       {
+        "Id": "458155273"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{57DF15FA-E28F-3376-04D6-E87A0A129876}"
+ }
+}

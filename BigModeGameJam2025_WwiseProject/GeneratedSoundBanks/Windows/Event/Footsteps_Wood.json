@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1732241522",
+    "Type": "Event",
+    "GUID": "{06D377A3-C570-48D7-96B5-9E9B3E818CCE}",
+    "Language": "SFX",
+    "Hash": "{78CCDA86-B2E0-687F-FB49-400C328361B3}",
+    "ObjectPath": "Footsteps_Wood",
+    "ShortName": "Footsteps_Wood",
+    "Path": "Event/Footsteps_Wood.bnk",
+    "Media": [
+     {
+      "Id": "408879486",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood_Footsteps3.wav",
+      "Path": "Media/408879486.wem",
+      "CachePath": "05/{0571EDB6-0C95-DE37-5841-70BCCF109D24}.wem"
+     },
+     {
+      "Id": "448651401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood_Footsteps1.wav",
+      "Path": "Media/448651401.wem",
+      "CachePath": "C3/{C347F474-1F1F-62ED-D169-3F2563985312}.wem"
+     },
+     {
+      "Id": "634119021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood_Footsteps4.wav",
+      "Path": "Media/634119021.wem",
+      "CachePath": "49/{490AE4C2-E5F5-5E5E-6715-C6C5A9D3BB3D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1732241522",
+      "Name": "Footsteps_Wood",
+      "ObjectPath": "\\Events\\SFX\\Footsteps_Wood",
+      "GUID": "{06D377A3-C570-48D7-96B5-9E9B3E818CCE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5499936",
+      "DurationMax": "0.6929485",
+      "MediaRefs": [
+       {
+        "Id": "408879486"
+       },
+       {
+        "Id": "448651401"
+       },
+       {
+        "Id": "634119021"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7D720044-82F9-6139-5A97-EC1397DDF4DB}"
+ }
+}

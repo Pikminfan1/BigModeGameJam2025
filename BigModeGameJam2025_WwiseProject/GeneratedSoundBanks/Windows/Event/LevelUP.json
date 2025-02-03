@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1994668398",
+    "Type": "Event",
+    "GUID": "{5C46BEC6-601E-4946-96F8-CEAD9E6195F3}",
+    "Language": "SFX",
+    "Hash": "{D51ACE0A-5FF9-A8D0-4FF7-9E6E4079B750}",
+    "ObjectPath": "LevelUP",
+    "ShortName": "LevelUP",
+    "Path": "Event/LevelUP.bnk",
+    "Media": [
+     {
+      "Id": "10956472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Levelupsfx.wav",
+      "Path": "Media/10956472.wem",
+      "CachePath": "D0/{D0DA5DE6-9FB5-AD42-8E36-B9571E38387C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1994668398",
+      "Name": "LevelUP",
+      "ObjectPath": "\\Events\\SFX\\LevelUP",
+      "GUID": "{5C46BEC6-601E-4946-96F8-CEAD9E6195F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5",
+      "DurationMax": "2.5",
+      "MediaRefs": [
+       {
+        "Id": "10956472"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{414F5641-7675-942B-12D6-1C3BCC439BC3}"
+ }
+}
