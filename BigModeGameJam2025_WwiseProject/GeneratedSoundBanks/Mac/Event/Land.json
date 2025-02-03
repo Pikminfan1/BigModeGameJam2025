@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "674522502",
+    "Type": "Event",
+    "GUID": "{F4F0653F-7885-4EC3-A122-C720CC7299C5}",
+    "Language": "SFX",
+    "Hash": "{D25B1BD1-01EE-6F42-3C40-45AE10BF28DE}",
+    "ObjectPath": "Land",
+    "ShortName": "Land",
+    "Path": "Event/Land.bnk",
+    "Media": [
+     {
+      "Id": "442730731",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "land1.wav",
+      "Path": "Media/442730731.wem",
+      "CachePath": "CF/{CFFAEA7E-53B4-C9F7-939D-99A107EE2F6B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "674522502",
+      "Name": "Land",
+      "ObjectPath": "\\Events\\SFX\\Land",
+      "GUID": "{F4F0653F-7885-4EC3-A122-C720CC7299C5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6810441",
+      "DurationMax": "0.6810441",
+      "MediaRefs": [
+       {
+        "Id": "442730731"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8A7D68D6-471A-DD1D-CDCD-B8D0DAAC04D2}"
+ }
+}
